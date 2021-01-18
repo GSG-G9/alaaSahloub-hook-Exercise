@@ -2,6 +2,7 @@ import './App.css';
 import Counter from './Component/Exercise1'
 import Colors from './Component/Exercise2'
 import Todo from './Component/Exercise3'
+import Signup from './Component/Exercise4'
 
 function App() {
   return (
@@ -14,6 +15,12 @@ function App() {
     <br/>
     <br/>
     <Todo/>
+    <br/>
+    <br/>
+    <Signup/>
+    <br/>
+    <br/>
+    <br/>
     </>
   );
 }
