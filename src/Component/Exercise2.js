@@ -8,7 +8,7 @@ export default function Colors() {
 
     return (
         <div style={{backgroundColor : color}}>
-            <h2>Alaa</h2>
+            <h2>--Exercise 2</h2>
         {colors.map(e => <button onClick={()=>setColor(e)} >{e}</button>)}
         </div>
     )
